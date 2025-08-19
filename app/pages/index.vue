@@ -17,8 +17,9 @@
 </template>
 
 <script lang="ts">
-import { AppFooter } from '#components';
-
+export default {
+  // ...
+}
 
 </script>
 
