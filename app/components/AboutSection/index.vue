@@ -1,16 +1,14 @@
 <template>
   <div class="w-full flex flex-col items-center">
-    <section class="bg-zinc-700 rounded-xl p-6 w-full">
-      <h2 class="text-xl md:text-2xl font-bold mb-3 text-center">Sobre </h2>
-  <p class="text-base md:text-lg text-gray-200 text-justify leading-relaxed">
-    Possui mais de 2 anos de experiência em desenvolvimento web, atuando em projetos de front-end e back-end.<br>
-    No marketplace, trabalhou com <span class="font-semibold text-blue-300">Django</span> no back-end e <span class="font-semibold text-blue-300">Tailwind CSS</span> no front-end, garantindo qualidade e usabilidade.<br>
-    Na plataforma de concursos e seletivos, participou desde a fase inicial, contribuindo para a arquitetura e padronização com <span class="font-semibold text-blue-300">Next.js</span>, <span class="font-semibold text-blue-300">Prisma</span> e <span class="font-semibold text-blue-300">TypeScript</span>.<br>
-    Em todos os projetos utilizou <span class="font-semibold text-blue-300">Docker</span> e atuou em colaboração com a equipe de desenvolvimento, assegurando consistência e escalabilidade.
-</p>
-
-    </section>
-  </div>
+  <section class="bg-zinc-700 rounded-xl p-6 w-full">
+    <h2 class="text-xl md:text-2xl font-bold mb-3 text-center">{{ $t('about.title') }}</h2>
+    <p class="text-base md:text-lg text-gray-200 text-justify leading-relaxed">
+      {{ $t('about.p1_start') }} <span class="font-semibold text-blue-300">{{ $t('about.role_company') }}</span>, {{ $t('about.p1_end') }}<br>
+      {{ $t('about.p2_start') }} <span class="font-semibold text-blue-300">Django</span> {{ $t('about.p2_mid') }} <span class="font-semibold text-blue-300">VUE.js</span> {{ $t('hero.and') }} <span class="font-semibold text-blue-300">TypeScript</span>. {{ $t('about.p2_end') }}<br>
+      {{ $t('about.p3_start') }} <span class="font-semibold text-blue-300">Docker</span> {{ $t('about.p3_end') }}
+    </p>
+  </section>
+</div>
 </template>
 
 <script>
