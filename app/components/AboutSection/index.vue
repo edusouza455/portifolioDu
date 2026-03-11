@@ -1,16 +1,14 @@
 <template>
   <div class="w-full flex flex-col items-center">
-    <section class="bg-zinc-700 rounded-xl p-6 w-full">
-      <h2 class="text-xl md:text-2xl font-bold mb-3 text-center">Sobre mim</h2>
-  <p class="text-base md:text-lg text-gray-200 text-justify leading-relaxed">
-    Possui mais de 2 anos de experiência em desenvolvimento web, atuando em projetos de front-end e back-end.<br>
-    No marketplace, trabalhou com <span class="font-semibold text-blue-300">Django</span> no back-end e <span class="font-semibold text-blue-300">Tailwind CSS</span> no front-end, garantindo qualidade e usabilidade.<br>
-    Na plataforma de concursos e seletivos, participou desde a fase inicial, contribuindo para a arquitetura e padronização com <span class="font-semibold text-blue-300">Next.js</span>, <span class="font-semibold text-blue-300">Prisma</span> e <span class="font-semibold text-blue-300">TypeScript</span>.<br>
-    Em todos os projetos utilizou <span class="font-semibold text-blue-300">Docker</span> e atuou em colaboração com a equipe de desenvolvimento, assegurando consistência e escalabilidade.
-</p>
-
-    </section>
-  </div>
+  <section class="bg-zinc-700 rounded-xl p-6 w-full">
+    <h2 class="text-xl md:text-2xl font-bold mb-3 text-center">Sobre</h2>
+    <p class="text-base md:text-lg text-gray-200 text-justify leading-relaxed">
+      Atuo como <span class="font-semibold text-blue-300">QA Engineer na A&3 Tecnologia</span>, focando em automação de testes <span class="font-semibold text-blue-300">(UI, API e Mobile)</span> e na qualidade como um processo contínuo e integrado ao desenvolvimento. Meu objetivo é reduzir riscos e garantir entregas confiáveis através de estratégias sólidas de prevenção de regressões.<br><br>
+      Especialista em automação com <span class="font-semibold text-blue-300">Playwright, Selenium e Pytest</span>. Tenho experiência prática na validação de APIs e testes em aplicações <span class="font-semibold text-blue-300">Android</span>, além de realizar testes de performance com <span class="font-semibold text-blue-300">JMeter</span> e gerenciar ambientes com Docker.<br><br>
+      Acredito que qualidade envolve colaboração técnica e melhoria contínua. Por isso, integro testes diretamente em pipelines de <span class="font-semibold text-blue-300">CI/CD</span>, unindo minha experiência prévia em desenvolvimento com uma visão estratégica para elevar o padrão de cada entrega.
+    </p>
+  </section>
+</div>
 </template>
 
 <script>
